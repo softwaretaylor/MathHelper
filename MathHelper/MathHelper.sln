@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathHelper", "MathHelper\MathHelper.vcxproj", "{978AD3B1-09E9-4BBB-94A7-5475BAF0E9AE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jtaylor991.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = MathHelper\\MathHelper.vcxproj
+		SccProjectName0 = $/Math\u0020Helper/MathHelper
+		SccAuxPath0 = https://jtaylor991.visualstudio.com/defaultcollection
+		SccLocalPath0 = MathHelper
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{978AD3B1-09E9-4BBB-94A7-5475BAF0E9AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{978AD3B1-09E9-4BBB-94A7-5475BAF0E9AE}.Debug|Win32.Build.0 = Debug|Win32
+		{978AD3B1-09E9-4BBB-94A7-5475BAF0E9AE}.Release|Win32.ActiveCfg = Release|Win32
+		{978AD3B1-09E9-4BBB-94A7-5475BAF0E9AE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
