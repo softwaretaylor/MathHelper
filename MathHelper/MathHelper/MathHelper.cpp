@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -7,7 +8,8 @@ double sideA = 0;
 double sideB = 0;
 double sideC = 0;
 double pythagAnswer = 0;
-double userAnswer;
+double userAnswer = 0;
+double whichSide = 0;
 
 int main()
 {
@@ -64,11 +66,31 @@ int main()
 		cout << "        " << sideC << endl;
 		cout << endl << endl;
 
-		//(sideA*sideA) + (sideB * sideB) = (sideC*sideC)
+		//sideC = sqrt((pow(sideA, 2)) - (pow(sideB, 2)));
+		//sideA = sqrt((pow(sideC, 2)) + (pow(sideB, 2)));
+		//sideB = sqrt((pow(sideA, 2)) - (pow(sideC, 2)));
+
 		//pick a number between 1 and 3. if =1, then randomize sideA and sideB, etc.
+
+		whichSide = rand() % 3 + 1;
 
 		cout << "Answer: ";
 		cin >> userAnswer;
+
+		/*
+		do
+		{
+		whichSide = rand() % 3 + 1;
+		cout << endl;
+
+		cout << whichSide << endl << endl;
+
+		cout << "Again? ";
+		cin >> ans;
+
+		} while (ans == 'y');
+		*/
+
 
 
 		break;
